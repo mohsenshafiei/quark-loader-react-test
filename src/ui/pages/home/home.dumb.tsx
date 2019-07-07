@@ -16,7 +16,11 @@ export class Home extends React.Component<HomeProps, HomeState> {
 
   render() {
     return (
-      <div className={style.container}>Mohsen</div>
+      <div className={style.container}>
+        <div className={style.wrapper}>
+          Mohsen
+        </div>
+      </div>
     );
   }
 }
